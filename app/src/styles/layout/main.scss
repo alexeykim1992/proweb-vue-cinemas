@@ -1,0 +1,20 @@
+@import 'components/films',
+        'components/main-poster',
+        'components/collection',
+        'components/series';
+
+.main {
+    
+    &__title {
+        font-family: $comfortaa;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        color: #F18128;
+        padding-bottom: 19ox;
+        border-bottom: 1px solid #F18128;
+        width: max-content;
+        margin-bottom: 57px;
+    }
+}

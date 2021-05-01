@@ -1,0 +1,31 @@
+.header-banner{
+    position: relative;
+    background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &__description{
+        font-family: $comfortaa;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        color: white;
+        max-width: 170px;
+        @include media($md){
+            font-size: 14px;
+        }
+    }
+}
+
+.icon__films{
+    font-size: 50px;
+    color: white;
+    margin-right: 24px;
+    @include media($md){
+        font-size: 40px;
+        
+    }
+}

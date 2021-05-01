@@ -1,0 +1,9 @@
+.header{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+@import 'components/header-banner',
+        'components/header-nav',
+        'components/header-content'

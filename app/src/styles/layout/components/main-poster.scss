@@ -1,0 +1,48 @@
+.main-poster {
+    position: relative;
+    padding-top: 38px;
+    padding-bottom: 85px;
+    background: linear-gradient(90deg, #DEF7FF -0.31%, #F4FCFF 45.33%, rgba(255, 255, 255, 0) 100.41%);
+    z-index: -1;
+
+    &__video {
+        position: absolute;
+        right: 0;
+        width: 50vw;
+        height: 100%;
+        top: 0;
+        object-fit: cover;
+        z-index: -1;
+    }
+
+    &__img {
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        font-family: $roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: justify;
+        color: #000000;
+        max-width: 560px;
+        margin-bottom: 55px;
+    }
+    &__btn{
+        display: inline-block;
+    }
+}
+
+.main-poster::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #DEF7FF -0.31%, 
+    #F4FCFF 50%, rgba(255,255,255,0) 100.41%);
+    z-index: -1;    
+}
