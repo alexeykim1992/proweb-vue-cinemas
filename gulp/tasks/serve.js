@@ -1,7 +1,7 @@
 module.exports = function () {
-    $.gulp.task('serve',()=>{
+    $.gulp.task('serve', () => {
         $.bs.init({
-            server:{
+            server: {
                 baseDir: $.path.serverDir
             }
         })
